@@ -1,2 +1,4 @@
 # cog403-final-project
-Final project for COG403. Explored cognitive appraisal theories
+Final project for COG403. This project explored whether appraisal information improves emotion classification beyond text alone using the appraisalEnISEAR dataset, a set of 1000 English self-reported emotion-eliciting event descriptions. The dataset used in this project can be downloaded here: https://www.romanklinger.de/data-sets/appraisalEnISEAR.zip. The original COLING paper's code repository is available at: https://github.com/bluzukk/appraisal-emotion-classification. We only used the dataset itself, not the original codebase. Coded in Python.
+
+We compared three models: appraisal-only, TF-IDF text-only, and a fusion model combining both feature types. The fusion model achieved the best overall performance, the appraisal-only model outperformed the text-only baseline, and the text-only model performed worst. Overall, the results suggest that appraisal information is useful on its own and provides complementary signal when combined with text.
